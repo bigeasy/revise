@@ -1,6 +1,6 @@
 Revise
 
-A long description.
+Utilities for adding MVCC version numbers to Strata b-tree keys.
 
     Documentation:  http://bigeasy.github.io/revise
     Source:         http://github.com/bigeasy/revise

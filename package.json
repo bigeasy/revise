@@ -9,7 +9,7 @@
                         "database", "json", "b-tree", "concurrent", "persistence"
     ],
     "contributors":     [],
-    "homepage":         "https://github.com/bigeasy/revise",
+    "homepage":         "https://bigeasy.github.io/revise",
     "bugs":             "https://github.com/bigeasy/revise/issues",
     "licenses":
     [{

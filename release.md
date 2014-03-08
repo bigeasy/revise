@@ -1,5 +1,6 @@
 ### Issue by Issue
 
+ * Change "homepage" to GitHub Pages. #16.
  * Remove "url" from `package.json`. #15.
  * Upgrade Proof to 0.0.44. #14.
  * Add discussion to `README`. #13.

@@ -3,7 +3,6 @@
     "version":          "0.0.2",
     "author":           "Alan Gutierrez <alan@prettyrobots.com>",
     "description":      "Utilities for adding MVCC version numbers to Strata b-tree keys.",
-    "url":              "http://bigeasy.github.com/revise",
     "keywords":
     [
                         "btree", "leveldb", "levelup", "binary", "mvcc",

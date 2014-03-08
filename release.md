@@ -1,5 +1,6 @@
 ### Issue by Issue
 
+ * Remove "url" from `package.json`. #15.
  * Upgrade Proof to 0.0.44. #14.
  * Add discussion to `README`. #13.
  * Release version 0.0.2. #12.

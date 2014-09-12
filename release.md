@@ -1,5 +1,6 @@
 ### Issue by Issue
 
+ * Upgrade Proof to 0.0.47. #17.
  * Change "homepage" to GitHub Pages. #16.
  * Remove "url" from `package.json`. #15.
  * Upgrade Proof to 0.0.44. #14.

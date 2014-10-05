@@ -1,4 +1,4 @@
-require('proof')(2, function (ok) {
+require('proof')(2, function (assert) {
     var mvcc = require('../..')
 
     var left = {
@@ -23,7 +23,7 @@ require('proof')(2, function (ok) {
         return a.first < b.first ? -1 : b.first < a.first ? 1 : 0
     }
 
-    ok((mvcc.comparator(comparator))(left, right) < 0, 'versioned')
+    assert((mvcc.comparator(comparator))(left, right) < 0, 'versioned')
     right.value.first = 'Mary'
-    ok((mvcc.comparator(comparator))(left, right) < 0, 'record')
+    assert((mvcc.comparator(comparator))(left, right) < 0, 'record')
 })

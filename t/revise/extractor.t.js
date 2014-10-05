@@ -1,4 +1,4 @@
-require('proof')(1, function (deepEqual) {
+require('proof')(1, function (assert) {
     var mvcc = require('../..')
 
     var record = {
@@ -17,7 +17,7 @@ require('proof')(1, function (deepEqual) {
 
     var key = (mvcc.extractor(extractor))(record)
 
-    deepEqual(key, {
+    assert(key, {
         value: {
             first: 'George',
             last: 'Washington',

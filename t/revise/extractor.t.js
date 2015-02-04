@@ -1,4 +1,6 @@
-require('proof')(1, function (assert) {
+require('proof')(1, prove)
+
+function prove (assert) {
     var mvcc = require('../..')
 
     var record = {
@@ -24,4 +26,4 @@ require('proof')(1, function (assert) {
         },
         version: 1
     }, 'equal')
-})
+}

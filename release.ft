@@ -8,6 +8,7 @@ A handful of upgrades to the test non-framework.
 
 ### Issue by Issue
 
+ * Remove `require.t.js`. #22.
  * Use a `prove` named function in tests. #21.
  * Rename main module to `revise.js`. #20.
  * Upgrade Proof to 0.0.50. #18.

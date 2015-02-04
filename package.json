@@ -21,6 +21,7 @@
                         "type": "git",
                         "url": "http://github.com/bigeasy/revise.git"
     },
+    "main":             "revise",
     "dependencies":
     {
     },

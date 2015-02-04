@@ -8,6 +8,7 @@ A handful of upgrades to the test non-framework.
 
 ### Issue by Issue
 
+ * Rename main module to `revise.js`. #20.
  * Upgrade Proof to 0.0.50. #18.
  * Upgrade Proof to 0.0.47. #17.
  * Change "homepage" to GitHub Pages. #16.

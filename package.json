@@ -1,6 +1,6 @@
 {
     "name":             "revise",
-    "version":          "0.0.5",
+    "version":          "1.0.0",
     "author":           "Alan Gutierrez <alan@prettyrobots.com>",
     "description":      "Utilities for adding MVCC version numbers to Strata b-tree keys.",
     "keywords":

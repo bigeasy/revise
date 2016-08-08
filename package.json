@@ -1,32 +1,31 @@
 {
-    "name":             "revise",
-    "version":          "0.0.5",
-    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
-    "description":      "Utilities for adding MVCC version numbers to Strata b-tree keys.",
+    "name":                 "revise",
+    "version":              "0.0.5",
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":          "Utilities for adding MVCC version numbers to Strata b-tree keys.",
     "keywords":
     [
-                        "btree", "leveldb", "levelup", "binary", "mvcc",
-                        "database", "json", "b-tree", "concurrent", "persistence"
+                            "btree", "leveldb", "levelup", "binary", "mvcc",
+                            "database", "json", "b-tree", "concurrent", "persistence"
     ],
-    "contributors":     [],
-    "homepage":         "https://bigeasy.github.io/revise",
-    "bugs":             "https://github.com/bigeasy/revise/issues",
-    "license":          "MIT",
+    "homepage":             "https://bigeasy.github.io/revise",
+    "bugs":                 "https://github.com/bigeasy/revise/issues",
+    "license":              "MIT",
     "repository":
     {
-                        "type": "git",
-                        "url": "http://github.com/bigeasy/revise.git"
+                            "type": "git",
+                            "url": "http://github.com/bigeasy/revise.git"
     },
-    "main":             "revise",
+    "main":                 "revise",
     "dependencies":
     {
     },
     "devDependencies":
     {
-                        "proof":              "1.x"
+                            "proof":                        "1.x"
     },
     "scripts":
     {
-                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+                            "test": "proof platform win32 && proof test */*/*.t.js || t/test"
     }
 }

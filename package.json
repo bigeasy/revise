@@ -1,7 +1,10 @@
 {
     "name":                 "revise",
     "version":              "0.0.5",
-    "description":          "Utilities for adding MVCC version numbers to Strata b-tree keys.",
+    "description":
+
+      "Utilities for adding MVCC version numbers to Strata b-tree keys.",
+
     "keywords":
     [
                             "btree", "leveldb", "levelup", "binary", "mvcc",

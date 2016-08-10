@@ -1,13 +1,13 @@
 {
     "name":                 "revise",
     "version":              "0.0.5",
-    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
     "description":          "Utilities for adding MVCC version numbers to Strata b-tree keys.",
     "keywords":
     [
                             "btree", "leveldb", "levelup", "binary", "mvcc",
                             "database", "json", "b-tree", "concurrent", "persistence"
     ],
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
     "homepage":             "https://bigeasy.github.io/revise",
     "bugs":                 "https://github.com/bigeasy/revise/issues",
     "license":              "MIT",
@@ -16,7 +16,6 @@
                             "type": "git",
                             "url": "http://github.com/bigeasy/revise.git"
     },
-    "main":                 "revise",
     "dependencies":
     {
     },
@@ -24,6 +23,7 @@
     {
                             "proof":                        "1.0.x"
     },
+    "main":                 "revise",
     "scripts":
     {
                             "test": "proof platform win32 && proof test */*/*.t.js || t/test"

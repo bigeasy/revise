@@ -1,7 +1,7 @@
 require('proof')(2, prove)
 
 function prove (assert) {
-    var mvcc = require('../..')
+    var mvcc = require('..')
 
     var left = {
         value: {
